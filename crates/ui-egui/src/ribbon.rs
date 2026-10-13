@@ -1556,6 +1556,7 @@ fn review(app: &mut WordApp, ui: &mut Ui) {
     group(ui, "Protect", None, app, |ui, app| {
         big(ui, app, "blockAuthors", "Block\nAuthors", "review.blockAuthors", json!({}), false);
         big(ui, app, "restrict", "Restrict\nEditing", "review.restrict", json!({}), false);
+        big_toggle(ui, app, "editableRegions", "Editable\nRegions", "ui.regionsPane", app.regions.open);
     });
     group(ui, "Ink", None, app, |ui, app| {
         let hidden = app.session.view.hide_ink;

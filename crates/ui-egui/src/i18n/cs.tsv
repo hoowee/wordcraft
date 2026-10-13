@@ -2080,3 +2080,16 @@
 	Automatic ({region})	Automaticky ({region})
 	Search	Hledat
 	Title Bar	Záhlaví okna
+	Editable Regions	Upravitelné oblasti
+	Unfilled only	Jen nevyplněné
+	Named only	Jen pojmenované
+	This document has no content controls or permission ranges.	Tento dokument nemá žádné ovládací prvky obsahu ani oblasti oprávnění.
+	Click a region to jump to it; double-click its name to rename it.	Kliknutím na oblast na ni přejdete; dvojitým kliknutím na její název ji přejmenujete.
+	Original	Původní
+	Modified	Změněno
+	(blank)	(prázdné)
+	Restore	Obnovit
+	Name for this region:	Název této oblasti:
+	Content of {name}:	Obsah oblasti {name}:
+	Edit	Upravit
+	Filter	Filtr

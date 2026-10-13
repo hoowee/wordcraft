@@ -2441,3 +2441,16 @@ preview	Title	Título
 	Start-up	Inicio de la aplicación
 	Show the Start screen when WordCraft starts	Mostrar la pantalla de inicio al abrir WordCraft
 	On: WordCraft opens on File › Home, with a blank document, the templates and your recent documents. Off: it opens a blank document.	Activado: WordCraft se abre en Archivo › Inicio, con un documento en blanco, las plantillas y tus documentos recientes. Desactivado: abre un documento en blanco.
+	Editable Regions	Regiones editables
+	Unfilled only	Solo sin rellenar
+	Named only	Solo con nombre
+	This document has no content controls or permission ranges.	Este documento no tiene controles de contenido ni regiones de permisos.
+	Click a region to jump to it; double-click its name to rename it.	Haga clic en una región para ir a ella; haga doble clic en su nombre para cambiarle el nombre.
+	Original	Original
+	Modified	Modificado
+	(blank)	(en blanco)
+	Restore	Restaurar
+	Name for this region:	Nombre para esta región:
+	Content of {name}:	Contenido de {name}:
+	Edit	Editar
+	Filter	Filtrar

@@ -2459,3 +2459,16 @@ preview	Title	Esempio
 	Automatic ({region})	Automatico ({region})
 	Search	Cerca
 	Title Bar	Barra del titolo
+	Editable Regions	Aree modificabili
+	Unfilled only	Solo non compilati
+	Named only	Solo con nome
+	This document has no content controls or permission ranges.	Questo documento non ha controlli contenuto né intervalli di autorizzazione.
+	Click a region to jump to it; double-click its name to rename it.	Fare clic su un'area per passare ad essa; fare doppio clic sul nome per rinominarla.
+	Original	Originale
+	Modified	Modificato
+	(blank)	(vuoto)
+	Restore	Ripristina
+	Name for this region:	Nome per questa area:
+	Content of {name}:	Contenuto di {name}:
+	Edit	Modifica
+	Filter	Filtro

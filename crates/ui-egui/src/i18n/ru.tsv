@@ -2474,3 +2474,16 @@ preview	Title	Пример
 	Level 7	Уровень 7
 	Level 8	Уровень 8
 	Level 9	Уровень 9
+	Editable Regions	Редактируемые области
+	Unfilled only	Только незаполненные
+	Named only	Только именованные
+	This document has no content controls or permission ranges.	В этом документе нет элементов управления содержимым и диапазонов разрешений.
+	Click a region to jump to it; double-click its name to rename it.	Щёлкните область, чтобы перейти к ней; дважды щёлкните её имя, чтобы переименовать.
+	Original	Оригинал
+	Modified	Изменено
+	(blank)	(пусто)
+	Restore	Восстановить
+	Name for this region:	Имя для этой области:
+	Content of {name}:	Содержимое «{name}»:
+	Edit	Изменить
+	Filter	Фильтр

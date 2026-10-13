@@ -34,6 +34,7 @@ pub mod paste;
 pub mod phonetic;
 pub mod protect;
 pub mod references;
+pub mod regions;
 pub mod review;
 pub mod smart_art;
 pub mod speech;
@@ -79,6 +80,7 @@ pub fn registry() -> Registry {
     v.extend(table_resize::specs());
     v.extend(table_mouse::specs());
     v.extend(review::specs());
+    v.extend(regions::specs());
     v.extend(file::specs());
     v.extend(options::specs());
     v.extend(design::specs());

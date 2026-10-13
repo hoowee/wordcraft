@@ -65,6 +65,7 @@ pub mod previews;
 pub mod print_page;
 pub mod printing;
 pub mod read_aloud;
+pub mod regions_pane;
 pub mod ribbon;
 pub mod scroll;
 pub mod system_clipboard;
@@ -355,6 +356,8 @@ pub struct WordApp {
     pub colors: Option<colors::ColorsDialog>,
     /// The Restrict Editing pane (#412).
     pub restrict: dialogs_review::RestrictPane,
+    /// The Editable Regions pane (content controls and permission ranges).
+    pub regions: regions_pane::RegionsPane,
     pub status_msg: Option<(String, f64)>,
     pub previews: previews::Previews,
     /// Media key of the picture a pending Change Picture replaces (#147).
@@ -473,6 +476,7 @@ impl WordApp {
             dialog: None,
             colors: None,
             restrict: Default::default(),
+            regions: Default::default(),
             status_msg: None,
             previews: previews::Previews::default(),
             integrated_titlebar: false,
@@ -988,6 +992,10 @@ impl WordApp {
                 self.dialog = None;
                 self.colors = None;
                 json!({})
+            }
+            "ui.regionsPane" => {
+                self.regions.open = p.get("value").and_then(Value::as_bool).unwrap_or(!self.regions.open);
+                json!({"open": self.regions.open})
             }
             "ui.changePicture" => {
                 let Some(media) = self.selected_picture_media() else {

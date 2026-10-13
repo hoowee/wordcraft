@@ -2089,3 +2089,16 @@
 	Start-up	Покретање
 	Show the Start screen when WordCraft starts	Прикажи почетни екран при покретању програма WordCraft
 	On: WordCraft opens on File › Home, with a blank document, the templates and your recent documents. Off: it opens a blank document.	Укључено: WordCraft се отвара на Фајл › Почетак, са празним документом, шаблонима и недавним документима. Искључено: отвара празан документ.
+	Editable Regions	Уредљиве области
+	Unfilled only	Само непопуњене
+	Named only	Само именоване
+	This document has no content controls or permission ranges.	Овај документ нема контроле садржаја ни области дозвола.
+	Click a region to jump to it; double-click its name to rename it.	Кликните на област да бисте на њу прешли; двоклик на њен назив је преименује.
+	Original	Оригинал
+	Modified	Измењено
+	(blank)	(празно)
+	Restore	Врати
+	Name for this region:	Назив за ову област:
+	Content of {name}:	Садржај области {name}:
+	Edit	Измени
+	Filter	Филтер

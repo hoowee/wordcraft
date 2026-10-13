@@ -80,6 +80,19 @@ pub fn show(app: &mut WordApp, ui: &mut Ui) {
                 crate::dialogs_review::restrict_pane(app, ui);
             });
     }
+    if app.regions.open {
+        egui::Panel::right("regions_pane")
+            .default_size(300.0)
+            .resizable(true)
+            .frame(egui::Frame::NONE.fill(t.panel).inner_margin(10).stroke(Stroke::new(1.0, t.border)))
+            .show(ui, |ui| {
+                if header(ui, "Editable Regions") {
+                    app.regions.open = false;
+                    return;
+                }
+                crate::regions_pane::pane(app, ui);
+            });
+    }
     if app.session.view.comments_pane {
         egui::Panel::right("comments_pane")
             .default_size(290.0)

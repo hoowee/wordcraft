@@ -939,6 +939,13 @@ pub fn paint(p: &Painter, r: Rect, name: &str, c: Color32, accent: Color32) {
             pen.rect(5.0, 9.0, 15.0, 17.5, c);
             pen.line_c(&[(7.0, 9.0), (7.0, 6.0), (10.0, 3.0), (13.0, 6.0), (13.0, 9.0)], a);
         }
+        // A page whose middle band is marked out as the editable region.
+        "editableRegions" => {
+            pen.page(4.0, 2.0, 16.0, 18.0);
+            pen.lines(6.0, 14.0, &[5.5, 8.0, 15.5]);
+            pen.frect(6.0, 9.5, 14.0, 13.5, a.linear_multiply(0.35));
+            pen.rect(6.0, 9.5, 14.0, 13.5, a);
+        }
         "hideInk" => {
             pen.line_c(&[(3.0, 13.0), (6.0, 8.0), (9.0, 13.0), (12.0, 8.0)], a);
             pen.line(&[(3.0, 3.0), (17.0, 17.0)]);
